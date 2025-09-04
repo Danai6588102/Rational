@@ -34,6 +34,64 @@ public class RationalTest {
         Assert.assertEquals(4, r1.denominator);
     }
 
+    @Test
+    public void testSub() {
+        r1.numerator = 1;
+        r1.denominator = 2;
+        r2.numerator = 1;
+        r2.denominator = 4;
+        r1.subtract(r2);
+        Assert.assertEquals(1, r1.numerator);
+        Assert.assertEquals(4, r1.denominator);
+    }
+
+    @Test
+    public void testMul() {
+        r1.numerator = 1;
+        r1.denominator = 2;
+        r2.numerator = 1;
+        r2.denominator = 4;
+        r1.multiply(r2);
+        Assert.assertEquals(1, r1.numerator);
+        Assert.assertEquals(8, r1.denominator);
+    }
+
+    @Test
+    public void testDev() {
+        r1.numerator = 1;
+        r1.denominator = 2;
+        r2.numerator = 1;
+        r2.denominator = 4;
+        r1.divide(r2);
+        Assert.assertEquals(2, r1.numerator);
+        Assert.assertEquals(1, r1.denominator);
+    }
+
+    @Test
+    public void testEq() {
+        r1.numerator = 1;
+        r1.denominator = 2;
+        r2.numerator = 1;
+        r2.denominator = 2;
+        r1.equals(r2);
+        Assert.assertEquals(1, r1.numerator);
+        Assert.assertEquals(2, r1.denominator);
+    }
+
+    @Test
+    public void testCompare() {
+        r1.numerator = 1;
+        r1.denominator = 2;
+        r2.numerator = 3;
+        r2.denominator = 4;
+        r1.compareTo(r2);
+        Assert.assertEquals(1, r1.numerator);
+        Assert.assertEquals(2, r1.denominator);
+    }
+
+
+
+
     /***
      * This method will be called every time after the other @Test method
      * is called.

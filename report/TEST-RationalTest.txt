@@ -1,0 +1,23 @@
+Testsuite: RationalTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+------------- Standard Output ---------------
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+Initializing the two Rational numbers.
+Clear up the two Rational numbers.
+------------- ---------------- ---------------
+
+Testcase: testAdd took 0.002 sec
+Testcase: testDev took 0 sec
+Testcase: testMul took 0 sec
+Testcase: testSub took 0 sec
+Testcase: testEq took 0.001 sec
+Testcase: testCompare took 0 sec
